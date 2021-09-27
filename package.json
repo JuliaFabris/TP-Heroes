@@ -1,0 +1,15 @@
+{
+  "name": "tp-heroes-juliafabris",
+  "version": "1.0.0",
+  "description": "tp",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "julia fabris",
+  "license": "ISC"
+}
