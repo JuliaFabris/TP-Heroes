@@ -22,15 +22,18 @@ app.get("/berners-lee", (req,res)=>{
     res.sendFile(path.join(__dirname, "./views/berners-lee.html"))
 })
 
-app.get("/", (req,res)=>{
+app.get("/clarke", (req,res)=>{
     res.sendFile(path.join(__dirname, "./views/clarke.html"))
+})
+
+app.get("/hamilton", (req,res)=>{
+    res.sendFile(path.join(__dirname, "./views/hamilton.html"))
     })
-app.get("/babbage", (req,res)=>{
- res.sendFile(path.join(__dirname, "./views/hamilton.html"))
+
+app.get("/hopper", (req,res)=>{
+       res.sendFile(path.join(__dirname, "./views/hopper.html"))
 })
-app.get("/berners-lee", (req,res)=>{
-    res.sendFile(path.join(__dirname, "./views/hopper.html"))
-})
+
 app.get("/lovelace", (req,res)=>{
     res.sendFile(path.join(__dirname, "./views/lovelace.html"))
 })
